@@ -1,0 +1,19 @@
+{
+  "name": "new_tab_logo",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "logoを変更する",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.co.jp/*"],
+      "js": ["jquery.min.js","script.js"],
+      "run_at" :"document_start"
+    }
+  ],
+  "icons": {
+        "128": "img/icon_128.png",
+        "48":  "img/icon_48.png",
+        "16":  "img/icon_16.png"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }

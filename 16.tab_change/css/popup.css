@@ -1,0 +1,42 @@
+#template,
+#tab-template {
+  display: none;
+}
+ 
+ul {
+  list-style: none;
+}
+ 
+/* Window一覧 */
+.window_list {
+  margin-bottom: 30px;
+}
+ 
+.window_name {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+  font-size: 14pt;
+}
+ 
+/* Tab一覧 */
+.tab_list {
+  padding-left: 10px;
+}
+ 
+#tab_list li {
+  margin-bottom: 10px;
+}
+ 
+.tab_url {
+  margin-left: 3px;
+  color: gray;
+}
+ 
+.favicon {
+  margin-right: 3px;
+  width: 18px;
+  vertical-align: middle;
+}

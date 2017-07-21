@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Viewer</title>
+  <link rel='stylesheet' type='text/css' href='css/popup.css' media='all'>
+</head>
+<script src='js/jquery.min.js'></script>
+<script src='js/popup.js'></script>
+<body>
+  <div>
+    <ul id='window_list'>
+      <!-- テンプレート -->
+      <li id='template' class='window_list'>
+        <div class='window_name'>
+        </div>
+        <ul id='tab_list' class='tab_list'>
+          <li id='tab-template'>
+            <img class='favicon' />
+            <span class='tab_title'></span>
+            <br />
+            <span class='tab_url'></span>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+ 
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    font-size: 200%;
+    background-color: #fff;
+    font-family: "Helvetica Neue",Helvetica,"Hiragino Kaku Gothic Pro","Lucida Grande",Verdana,Arial,Meiryo,"メイリオ",sans-serif;
+}
+.clock{
+  border: 1px solid #aaa;
+  width: 400px;
+  text-align: center;
+}

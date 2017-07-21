@@ -1,0 +1,25 @@
+{
+  "name": "Japanpost_search",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "日本郵政の伝票番号検索をする。", 
+"permissions" : [
+    "tabs",
+    "contextMenus",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+        "128": "img/icon_128.png",
+        "48":  "img/icon_48.png",
+        "16":  "img/icon_16.png"
+    },
+    "background" : {
+    "scripts" : ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "img/icon_16.png",
+    "default_title": "Japanpost_search",
+    "default_popup": "popup.html"
+  }
+  }

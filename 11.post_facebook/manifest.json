@@ -1,0 +1,24 @@
+{
+  "name": "Post_facebook",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "facebookに投稿をする。", 
+"permissions" : [
+    "tabs",
+    "contextMenus",
+    "http://*/*",
+    "https://*/*"
+  ],
+"browser_action": {
+    "default_icon": "img/icon_16.png",
+    "default_title": "Post_twitter"
+  },
+  "icons": {
+        "128": "img/icon_128.png",
+        "48":  "img/icon_48.png",
+        "16":  "img/icon_16.png"
+    },
+    "background" : {
+    "scripts" : ["background.js","browser_action.js"]
+  }
+  }

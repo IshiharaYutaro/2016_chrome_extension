@@ -1,0 +1,20 @@
+{
+  "name": "wiki_search",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "右クリックメニューからwikipedia検索をする。", 
+"permissions" : [
+    "tabs",
+    "contextMenus",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+        "128": "img/icon_128.png",
+        "48":  "img/icon_48.png",
+        "16":  "img/icon_16.png"
+    },
+    "background" : {
+    "scripts" : ["background.js"]
+  }
+  }

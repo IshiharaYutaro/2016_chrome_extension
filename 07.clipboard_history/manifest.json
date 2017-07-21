@@ -1,0 +1,29 @@
+{
+  "name": "clipboard_history",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "クリップボードヒストリー。", 
+"permissions" : [
+    "tabs",
+    "clipboardRead",
+    "contextMenus",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+        "128": "img/icon_128.png",
+        "48":  "img/icon_48.png",
+        "16":  "img/icon_16.png"
+    },
+    "background" : {
+    "scripts" : ["background.js"]
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "browser_action": {
+    "default_icon": "img/icon_16.png",
+    "default_title": "clipboard_history",
+    "default_popup": "popup.html"
+  }
+  }
